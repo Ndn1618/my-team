@@ -1,0 +1,21 @@
+.site-header {
+  background-color: $midnight-green;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  padding-top: 73px;
+  padding-bottom: 100px;
+}
+
+.site-header__logo {
+  display: block;
+  flex-shrink: 0;
+}
+
+.site-header__logo-img {
+  display: block;
+  width: 160px;
+  height: 40px;
+}
