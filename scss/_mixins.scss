@@ -54,3 +54,17 @@
     @content;
   }
 }
+
+// Font-weighti 500 bo'lganiga
+
+@mixin semi_bold-font {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@mixin semi_bold-font {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
