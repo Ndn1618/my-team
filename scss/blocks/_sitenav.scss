@@ -1,0 +1,31 @@
+.sitenav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.sitenav__list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  @include reset-list;
+  margin-left: 40px;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.sitenav__item:last-child {
+  margin-left: auto;
+}
+
+.item__link {
+  display: inline-block;
+  @include semi_bold-font;
+  color: $white-text;
+  text-decoration: none;
+}
