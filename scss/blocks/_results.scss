@@ -45,6 +45,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 11px;
 }
 
 .result__figure {
@@ -62,6 +63,30 @@
   height: 56px;
   background-image: url("../../img/quote-wrapper.svg");
   content: "";
+}
+
+.result__figure::after {
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  content: "";
+}
+
+.result:nth-child(1) .result__figure::after {
+  background-image: url("../../img/kady-baker.jpg");
+}
+
+.result:nth-child(2) .result__figure::after {
+  background-image: url("../../img/aiysha-reese.jpg");
+}
+
+.result:nth-child(3) .result__figure::after {
+  background-image: url("../../img/arthur-clarke.jpg");
 }
 
 .result__blockquote {
