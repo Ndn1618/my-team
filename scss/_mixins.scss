@@ -62,6 +62,17 @@
   line-height: 100px;
 }
 
+@mixin bold-medium-font {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+@mixin bold-small-font {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 @mixin semi_bold-font {
   font-weight: 600;
   font-size: 18px;
