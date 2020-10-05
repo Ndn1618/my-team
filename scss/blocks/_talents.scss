@@ -1,0 +1,58 @@
+.talents {
+  color: $white-text;
+}
+
+.talents__container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-bottom: 250px;
+  background-image: url("../../img/talent-section-bg-pink.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 358px 100px;
+}
+
+.talents__heading {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  @include bold-big-font;
+  margin: 0;
+}
+
+.talents__heading::before {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 200px;
+  background-image: url("../../img/talent-section-bg-dark.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  margin-left: -165px;
+  content: "";
+}
+
+.talents__heading-span {
+  color: $pink-text;
+}
+
+.talents__text {
+  position: relative;
+  z-index: 1;
+  @include semi_bold-font;
+  max-width: 445px;
+  padding-top: 83px;
+  margin: 0;
+}
+
+.talents__text::before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  @include line(#79C8C7);
+  content: "";
+}

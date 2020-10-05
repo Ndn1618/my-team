@@ -28,4 +28,9 @@
   @include semi_bold-font;
   color: $white-text;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sitenav__item:not(:last-child):hover .item__link {
+  color: $pink-text;
 }

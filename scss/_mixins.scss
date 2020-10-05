@@ -57,14 +57,22 @@
 
 // Font-weighti 500 bo'lganiga
 
-@mixin semi_bold-font {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
+@mixin bold-big-font {
+  font-size: 100px;
+  line-height: 100px;
 }
 
 @mixin semi_bold-font {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+}
+
+// line
+
+@mixin line ($line-color) {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: $line-color;
 }
