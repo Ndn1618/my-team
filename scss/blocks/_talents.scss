@@ -57,6 +57,12 @@
   content: "";
 }
 
+@include breakpoint-down (1370px){
+  .talents__heading::before {
+    display: none;
+  }
+}
+
 
 @include breakpoint-down (1050px) {
   .talents__container {
@@ -84,7 +90,6 @@
     background-position: bottom center;
   }
 
-  .talents__heading::before,
   .talents__text::before {
     display: none;
   }

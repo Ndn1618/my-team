@@ -565,7 +565,7 @@ img {
   .site-header--open .site-header__nav-toggler {
     position: fixed;
     z-index: 50;
-    right: 25px;
+    right: 20px;
     top: 56px;
     background-image: url("../../img/remove.svg");
     background-size: 18px 17px;
@@ -748,6 +748,12 @@ img {
   content: "";
 }
 
+@media only screen and (max-width: 1370px) {
+  .talents__heading::before {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1050px) {
   .talents__container {
     -webkit-box-align: center;
@@ -776,7 +782,6 @@ img {
     text-align: center;
     background-position: bottom center;
   }
-  .talents__heading::before,
   .talents__text::before {
     display: none;
   }
