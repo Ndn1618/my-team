@@ -14,6 +14,10 @@
   margin-left: 40px;
 }
 
+.sitenav__list--footer {
+  margin-left: 0;
+}
+
 .sitenav__item:not(:last-child) {
   margin-left: 40px;
   margin-right: 40px;
@@ -21,6 +25,15 @@
 
 .sitenav__item:last-child {
   margin-left: auto;
+}
+
+.sitenav__item--footer:not(:last-child),
+.sitenav__item--footer:last-child {
+  margin: 0;
+}
+
+.sitenav__item--footer:not(:last-child) {
+  margin-right: 40px;
 }
 
 .item__link {
@@ -32,7 +45,8 @@
 }
 
 .sitenav__item:not(:last-child):hover .item__link,
-.item__link--active {
+.item__link--active,
+.sitenav__item--footer:last-child:hover .item__link {
   color: $pink-text;
 }
 
