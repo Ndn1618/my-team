@@ -31,7 +31,8 @@
   transition: color 0.3s ease;
 }
 
-.sitenav__item:not(:last-child):hover .item__link {
+.sitenav__item:not(:last-child):hover .item__link,
+.item__link--active {
   color: $pink-text;
 }
 
