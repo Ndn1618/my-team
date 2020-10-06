@@ -1189,4 +1189,33 @@ img {
     padding-bottom: 164px;
   }
 }
+
+.starting {
+  background-color: #F67E7E;
+  background-image: url("../../img/starting-section-bg.svg");
+  background-size: 200px 122px;
+  background-position: bottom left calc(50% - 572px);
+  background-repeat: no-repeat;
+}
+
+.starting__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 917px;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.starting__heading {
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.starting {
+  background-color: $pink-text;
+  background-image: url("../../img/starting-section-bg.svg");
+  background-size: 200px 122px;
+  background-position: bottom left calc(50% - 572px);
+  background-repeat: no-repeat;
+}
+
+.starting__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 917px;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.starting__heading {
+  @include bold-medium-font;
+  margin: 0;
+}
