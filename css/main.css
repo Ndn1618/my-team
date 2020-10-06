@@ -511,18 +511,6 @@ img {
   z-index: 1;
 }
 
-.site-header__logo {
-  display: block;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-.site-header__logo-img {
-  display: block;
-  width: 160px;
-  height: 40px;
-}
-
 .site-header__nav-toggler {
   display: none;
   width: 25px;
@@ -571,6 +559,18 @@ img {
     background-image: url("../../img/remove.svg");
     background-size: 18px 17px;
   }
+}
+
+.logo {
+  display: block;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.logo__img {
+  display: block;
+  width: 160px;
+  height: 40px;
 }
 
 .sitenav {
