@@ -1,0 +1,16 @@
+.site-footer {
+  background-color: #002529;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.site-footer__logo-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 285px;
+}
+
+.site-footer__logo {
+  margin-bottom: 25px;
+}
