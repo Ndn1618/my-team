@@ -93,3 +93,14 @@
     margin-bottom: 36px;
   }
 }
+
+@include breakpoint-down (490px) {
+  .sitenav__list--footer {
+    width: 327px;
+    justify-content: center;
+  }
+
+  .sitenav__item--footer:not(:last-child) {
+    margin-right: 24px;
+  }
+}
