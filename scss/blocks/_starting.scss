@@ -2,8 +2,12 @@
   background-color: $pink-text;
   background-image: url("../../img/starting-section-bg.svg");
   background-size: 200px 122px;
-  background-position: bottom left calc(50% - 572px);
+  background-position: bottom left calc(50% - 576px);
   background-repeat: no-repeat;
+}
+
+.starting--about {
+  background-position: bottom left calc(50% - 583px);
 }
 
 .starting__container {
