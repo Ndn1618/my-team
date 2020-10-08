@@ -1251,7 +1251,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .starting {
-    background-position: bottom left calc(50% - 272px);
+    background-position: bottom left calc(50% - 292px);
   }
   .starting__container {
     max-width: 573px;
