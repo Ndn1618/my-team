@@ -136,7 +136,7 @@
 
 @include breakpoint-down (490px) {
   .features__container {
-    padding-left: 0;
+    padding-left: 20px;
   }
 
   .features__heading {

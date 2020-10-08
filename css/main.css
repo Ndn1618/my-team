@@ -992,7 +992,7 @@ img {
 
 @media only screen and (max-width: 490px) {
   .features__container {
-    padding-left: 0;
+    padding-left: 20px;
   }
   .features__heading {
     max-width: 240px;
@@ -1270,7 +1270,7 @@ img {
 
 @media only screen and (max-width: 490px) {
   .starting {
-    background-position: bottom left calc(50% - 138px);
+    background-position: bottom left calc(50% - 158px);
   }
   .starting__container {
     max-width: 327px;
@@ -1291,9 +1291,9 @@ img {
   }
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 375px) {
   .starting {
-    background-position: bottom left calc(50% - 83px);
+    background-position: bottom left calc(50% - 103px);
   }
   .starting__container {
     padding-top: 83px;
