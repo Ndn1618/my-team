@@ -1,0 +1,39 @@
+// About section of about page
+
+.about {
+  background-color: $midnight-green;
+  color: $white-text;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__heading {
+  max-width: 350px;
+  width: 100%;
+  @include bold-bigger-font;
+  margin: 0;
+}
+
+.about__text {
+  position: relative;
+  z-index: 1;
+  max-width: 730px;
+  width: 100%;
+  @include semi_bold-font;
+  margin: 0;
+  padding-top: 44px;
+}
+
+.about__text::before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  @include line (#fff);
+  content: "";
+}
