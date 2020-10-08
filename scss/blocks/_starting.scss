@@ -26,7 +26,7 @@
 
 @include breakpoint-down (768px) {
   .starting {
-    background-position: bottom left calc(50% - 292px);
+    background-position: bottom left calc(50% - 284px);
   }
 
   .starting__container {
@@ -47,7 +47,7 @@
 
 @include breakpoint-down (490px) {
   .starting {
-    background-position: bottom left calc(50% - 158px);
+    background-position: bottom left calc(50% - 148px);
   }
 
   .starting__container {
@@ -65,7 +65,7 @@
 
 @include breakpoint-down (375px) {
   .starting {
-    background-position: bottom left calc(50% - 103px);
+    background-position: bottom left calc(50% - 93px);
   }
 
   .starting__container {

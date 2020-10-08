@@ -1251,7 +1251,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .starting {
-    background-position: bottom left calc(50% - 292px);
+    background-position: bottom left calc(50% - 284px);
   }
   .starting__container {
     max-width: 573px;
@@ -1270,7 +1270,7 @@ img {
 
 @media only screen and (max-width: 490px) {
   .starting {
-    background-position: bottom left calc(50% - 158px);
+    background-position: bottom left calc(50% - 148px);
   }
   .starting__container {
     max-width: 327px;
@@ -1293,7 +1293,7 @@ img {
 
 @media only screen and (max-width: 375px) {
   .starting {
-    background-position: bottom left calc(50% - 103px);
+    background-position: bottom left calc(50% - 93px);
   }
   .starting__container {
     padding-top: 83px;
