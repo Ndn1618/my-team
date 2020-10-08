@@ -1,9 +1,9 @@
 .button {
-  width: 153px;
+  max-width: 153px;
   max-width: 100%;
   display: block;
   text-align: center;
-  padding: 10px 15px;
+  padding: 10px 32px;
   border: none;
   background-color: transparent;
   border-radius: 24px;
@@ -44,4 +44,15 @@
 
 .button--auto {
   margin-left: auto;
+}
+
+.button--secondary {
+  border-radius: 24px;
+  background-color: #fff;
+  color: #002529;
+  outline: none;
+}
+
+.button--secondary:not([disabled]):hover {
+  background-color:   #79C8C7;
 }
