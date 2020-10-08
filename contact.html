@@ -52,62 +52,58 @@
 
   <main class="site-main">
     <section class="contact">
-      <div class="container contact__container">
-        <div class="contact__left">
-          <h2 class="contact__left-heading">Contact</h2>
-          <div class="contact__left-inner">
-            <h3 class="contact__left-inner-heading">Ask us about</h3>
-            <ul class="features__list contact__left-inner-list">
-              <li class="features__item feature contact__left-inner-item">
-                <div class="feature__content">
-                  <p class="feature__content-description contact__left-inner-item-description">The quality of our talent network</p>
-                </div>
-              </li>
-              <li class="features__item feature contact__left-inner-item">
-                <div class="feature__content">
-                  <p class="feature__content-description contact__left-inner-item-description">Usage & implementation of our software</p>
-                </div>
-              </li>
-              <li class="features__item feature contact__left-inner-item">
-                <div class="feature__content">
-                  <p class="feature__content-description contact__left-inner-item-description">How we help drive innovation</p>
-                </div>
-              </li>
-            </ul>
+      <div class="contact__wrapper">
+        <div class="container contact__container">
+          <div class="contact__left">
+            <h2 class="contact__left-heading">Contact</h2>
+            <div class="contact__left-inner">
+              <h3 class="contact__left-inner-heading">Ask us about</h3>
+              <ul class="features__list contact__left-inner-list">
+                <li class="features__item feature contact__left-inner-item">
+                  <div class="feature__content">
+                    <p class="feature__content-description contact__left-inner-item-description">The quality of our talent network</p>
+                  </div>
+                </li>
+                <li class="features__item feature contact__left-inner-item">
+                  <div class="feature__content">
+                    <p class="feature__content-description contact__left-inner-item-description">Usage & implementation of our software</p>
+                  </div>
+                </li>
+                <li class="features__item feature contact__left-inner-item">
+                  <div class="feature__content">
+                    <p class="feature__content-description contact__left-inner-item-description">How we help drive innovation</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
+          <form class="contact__form" action="https://echo.htmlacademy.ru" method="POST">
+            <label class="contact__form-label" for="name-input">
+              <input class="contact__form-input" id="name-input" type="text" placeholder="Name" name="name" spellcheck="false" required>
+              <span class="contact__form-span">This field is required</span>
+            </label>
+            <label class="contact__form-label" for="email-input">
+              <input class="contact__form-input" id="email-input" type="email" placeholder="Email Address" name="email" spellcheck="false"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+              <span class="contact__form-span">This field is required</span>
+            </label>
+            <label class="contact__form-label" for="company_name-input">
+              <input class="contact__form-input" id="company_name-input" type="text" placeholder="Company Name" name="company_name" spellcheck="false"
+                required>
+              <span class="contact__form-span">This field is required</span>
+            </label>
+            <label class="contact__form-label" for="title-input">
+              <input class="contact__form-input" id="title-input" type="text" placeholder="Title" name="title" spellcheck="false" required>
+              <span class="contact__form-span">This field is required</span>
+            </label>
+            <label class="contact__form-label" for="textarea">
+              <textarea class="contact__form-textarea" id="textarea" name="message" spellcheck="false" placeholder="Message"
+                required></textarea>
+              <span class="contact__form-span">This field is required</span>
+            </label>
+            <button class="button button--secondary contact__form-submit" type="submit">submit</button>
+          </form>
         </div>
-        <form class="contact__form" action="https://echo.htmlacademy.ru" method="POST">
-          <label class="contact__form-label" for="name-input">
-            <input class="contact__form-input" id="name-input" type="text" placeholder="Name" name="name" spellcheck="false" required>
-            <span class="contact__form-span">This field is required</span>
-          </label>
-          <label class="contact__form-label" for="email-input">
-            <input class="contact__form-input" id="email-input" type="email" placeholder="Email Address" name="email" spellcheck="false"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-            <span class="contact__form-span">This field is required</span>
-          </label>
-          <label class="contact__form-label" for="company_name-input">
-            <input class="contact__form-input" id="company_name-input" type="text" placeholder="Company Name" name="company_name" spellcheck="false"
-              required>
-            <span class="contact__form-span">This field is required</span>
-          </label>
-          <label class="contact__form-label" for="title-input">
-            <input class="contact__form-input" id="title-input" type="text" placeholder="Title" name="title" spellcheck="false" required>
-            <span class="contact__form-span">This field is required</span>
-          </label>
-          <label class="contact__form-label" for="textarea">
-            <textarea class="contact__form-textarea" id="textarea" name="message" spellcheck="false" placeholder="Message"
-              required></textarea>
-            <span class="contact__form-span">This field is required</span>
-          </label>
-          <button class="button button--secondary contact__form-submit" type="submit">submit</button>
-        </form>
-      </div>
-    </section>
-    <section class="starting starting--about">
-      <div class="container starting__container">
-        <h2 class="starting__heading">Ready to get started?</h2>
-        <a class="button button--primary-dark" href="contact.html">contact us</a>
       </div>
     </section>
   </main>
