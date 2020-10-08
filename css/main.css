@@ -1800,6 +1800,14 @@ img {
   .contact__left {
     margin-bottom: 56px;
   }
+  .contact__left-heading {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .contact__left-inner-heading {
+    margin-bottom: 40px;
+  }
   .contact__left-inner-item {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
