@@ -50,7 +50,7 @@
     </div>
   </header>
 
-  <main class="site-main">
+  <main class="site-main site-main--contact">
     <section class="contact">
       <div class="contact__wrapper">
         <div class="container contact__container">
@@ -79,26 +79,23 @@
           </div>
           <form class="contact__form" action="https://echo.htmlacademy.ru" method="POST">
             <label class="contact__form-label" for="name-input">
-              <input class="contact__form-input" id="name-input" type="text" placeholder="Name" name="name" spellcheck="false" required>
+              <input class="contact__form-input" id="name-input" type="text" placeholder="Name" name="name" spellcheck="false" autocomplete="off" required>
               <span class="contact__form-span">This field is required</span>
             </label>
             <label class="contact__form-label" for="email-input">
-              <input class="contact__form-input" id="email-input" type="email" placeholder="Email Address" name="email" spellcheck="false"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+              <input class="contact__form-input" id="email-input" type="email" placeholder="Email Address" name="email" spellcheck="false" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off" required>
               <span class="contact__form-span">This field is required</span>
             </label>
             <label class="contact__form-label" for="company_name-input">
-              <input class="contact__form-input" id="company_name-input" type="text" placeholder="Company Name" name="company_name" spellcheck="false"
-                required>
+              <input class="contact__form-input" id="company_name-input" type="text" placeholder="Company Name" name="company_name" autocomplete="off" spellcheck="false" required>
               <span class="contact__form-span">This field is required</span>
             </label>
             <label class="contact__form-label" for="title-input">
-              <input class="contact__form-input" id="title-input" type="text" placeholder="Title" name="title" spellcheck="false" required>
+              <input class="contact__form-input" id="title-input" type="text" placeholder="Title" name="title" spellcheck="false" autocomplete="off" required>
               <span class="contact__form-span">This field is required</span>
             </label>
             <label class="contact__form-label" for="textarea">
-              <textarea class="contact__form-textarea" id="textarea" name="message" spellcheck="false" placeholder="Message"
-                required></textarea>
+              <textarea class="contact__form-textarea" id="textarea" name="message" spellcheck="false" placeholder="Message" autocomplete="off" required></textarea>
               <span class="contact__form-span">This field is required</span>
             </label>
             <button class="button button--secondary contact__form-submit" type="submit">submit</button>

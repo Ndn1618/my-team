@@ -1,9 +1,12 @@
 .site-main {
+  position: relative;
+  z-index: -1;
   flex-grow: 1;
   background-color: $midnight-green;
 }
 
-@include breakpoint-down (640px) {
-  position: relative;
-  z-index: -1;
+@include breakpoint-up (640px) {
+  .site-main--contact {
+    z-index: 1;
+  }
 }

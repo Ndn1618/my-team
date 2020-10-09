@@ -708,15 +708,18 @@ img {
 }
 
 .site-main {
+  position: relative;
+  z-index: -1;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   background-color: #014E56;
 }
 
-@media only screen and (max-width: 640px) {
-  position: relative;
-  z-index: -1;
+@media only screen and (min-width: 640px) {
+  .site-main--contact {
+    z-index: 1;
+  }
 }
 
 .talents {
@@ -1633,6 +1636,9 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .contact__form-label {
@@ -1647,6 +1653,8 @@ img {
 
 .contact__form-input,
 .contact__form-textarea {
+  display: block;
+  width: 542px;
   background-color: transparent;
   border: none;
   padding: 0 81px 17px 14px;
@@ -1737,7 +1745,6 @@ img {
 
 .contact__form-submit {
   margin-top: 17px;
-  max-width: 123px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -1785,7 +1792,9 @@ img {
   .contact__left-inner-list {
     text-align: left;
   }
-  .contact__form {
+  .contact__form,
+  .contact__form-input,
+  .contact__form-textarea {
     width: 400px;
   }
 }
@@ -1815,7 +1824,9 @@ img {
             flex-direction: row;
     text-align: left;
   }
-  .contact__form {
+  .contact__form,
+  .contact__form-input,
+  .contact__form-textarea {
     width: 327px;
   }
 }
