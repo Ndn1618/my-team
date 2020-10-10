@@ -6,7 +6,8 @@
 }
 
 @include breakpoint-up (640px) {
-  .site-main--contact {
+  .site-main--contact,
+  .site-main--about {
     z-index: 1;
   }
 }
